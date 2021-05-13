@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100vh;
+}
+
+.bg-bloody {
+    background-color: #7c0a02;
+}
+
+.navbar.-custom {
+    opacity: 0.8;
+}
+
+.container.-main {
+    background-color: #ac0404;
+    flex-grow: 1;
+}
+
+.wrapper {
+    background-color: #170906;
+    min-height: 100%;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+.alert.-custom {
+    margin: 1rem 0;
+    background-color:  #FF7F7F;
+    color: #841617;
+}
+
+.jumbotron.-custom {
+    background-color: #9b0000;
+    color: #fff;
+}
+
+.container.-main, .footer {
+    flex-shrink: 0;
+}
+
+.underline {
+    border-bottom: solid #6e0202;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #23272b;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #fff;
+}
+
+.dropdown > .dropdown-menu > .dropdown-item {
+    background-color: #23272b !important;
+    color: #fff;
+}
+
+.dropdown > .dropdown-menu {
+    background-color: #23272b    !important;
+}
+
+.dropdown > .dropdown-menu > .dropdown-item:active,
+.dropdown > .dropdown-menu > .dropdown-item:hover {
+    background-color: #ac0404 !important;
+    color: 000;
+}
+
+.btn-group > .dropdown-menu > .dropdown-item {
+    background-color: #23272b !important;
+    color: #fff;
+}
+
+.btn-group > .dropdown-menu {
+    background-color: #23272b    !important;
+}
+
+.btn-group > .dropdown-menu > .dropdown-item:active,
+.btn-group > .dropdown-menu > .dropdown-item:hover {
+    background-color: #ac0404 !important;
+    color: 000;
+}
